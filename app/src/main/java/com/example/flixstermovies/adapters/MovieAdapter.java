@@ -79,12 +79,9 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 //Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_backdrop_placeholder).centerCrop().transform(new RoundedCorners(300)).into(ivPoster);
             } else {
                 imageUrl = movie.getPosterPath();
-                //Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_movie_placeholder).centerCrop().transform(new RoundedCorners(300)).into(ivPoster);
-                Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_movie_placeholder).into(ivPoster);
-
                 //Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_movie_placeholder).transform(new RoundedCorners(300)).into(ivPoster);
+                Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_movie_placeholder).into(ivPoster);
             }
-
         }
 
         @Override

@@ -48,7 +48,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
 
         Log.d("MovieDetailsActivity", String.format("Backdrop path: '%s", movie.getBackdropPath()));
 
-        //Glide.with(context).load(imageURL).placeholder(R.drawable.flicks_backdrop_placeholder).into(ivBackground);
+        //Glide.with(context).load(imageUrl).placeholder(R.drawable.flicks_backdrop_placeholder).into(ivBackground);
 
     }
 }
