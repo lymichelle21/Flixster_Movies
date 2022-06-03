@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Flixster Movies</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="textview">TextView</string>
+    <string name="tvTagline">TextView</string>
+    <string name="tvLink">TextView</string>
+    <string name="ivBackground">TODO</string>
+</resources>
