@@ -27,6 +27,7 @@ The following **stretch** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+* [x] Added movie poster to details screen
 
 ## Video Walkthrough
 
@@ -41,7 +42,6 @@ GIF created with [GIPHY](https://giphy.com).
 
 Describe any challenges encountered while building the app.
 - Implementing rounded edges
-- Adding image to details page
 - Almost lost all files but managed to recover them 🎉
 
 ## Open-source libraries used
